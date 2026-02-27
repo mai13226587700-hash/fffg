@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>简历急救站 - 打工仔求职上岸站</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:微软雅黑,sans-serif}
+body{background:#F5F7FA;color:#333}
+.header{background:#165DFF;color:white;padding:20px;text-align:center}
+.content{padding:20px}
+.box{background:white;border-radius:12px;padding:20px;margin-bottom:15px;box-shadow:0 2px 8px rgba(0,0,0,.07)}
+h2{font-size:18px;color:#165DFF;margin-bottom:10px}
+p{font-size:14px;line-height:1.6;color:#666;margin-bottom:10px}
+textarea{width:100%;height:140px;padding:10px;border:1px solid #ddd;border-radius:8px;margin:10px 0}
+button{width:100%;background:#165DFF;color:white;border:none;padding:12px;border-radius:8px;font-size:15px}
+.result{margin-top:15px;padding:10px;background:#f0f7ff;border-radius:8px;display:none}
+.back{text-align:center;margin-top:20px}
+.back a{color:#165DFF;text-decoration:none}
+</style>
+</head>
+<body>
+<div class="header"><h1>简历急救站</h1></div>
+<div class="content">
+<div class="box">
+<h2>你的简历，可能一直在拒你</h2>
+<p>免费检测、一键优化、标出漏洞、提高面试率。</p>
+<textarea id="resume" placeholder="把你的简历粘贴在这里"></textarea>
+<button onclick="checkResume()">开始检测优化</button>
+<div class="result" id="result">
+<p>✅ 检测完成：</p>
+<p>1. 简历缺少工作成果量化，建议补充数据</p>
+<p>2. 个人描述太笼统，已为你生成优化版</p>
+<p>3. 排版整洁，无明显错误</p>
+</div>
+</div>
+<div class="back"><a href="index.html">← 返回首页</a></div>
+</div>
+<script>
+function checkResume(){document.getElementById("result").style.display="block"}
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI模拟面试 - 打工仔求职上岸站</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:微软雅黑,sans-serif}
+body{background:#F5F7FA}
+.header{background:#165DFF;color:white;padding:20px;text-align:center}
+.content{padding:20px}
+.box{background:white;border-radius:12px;padding:20px;margin-bottom:15px;box-shadow:0 2px 8px rgba(0,0,0,.07)}
+h2{font-size:18px;color:#165DFF;margin-bottom:10px}
+p{font-size:14px;line-height:1.6;color:#666}
+button{width:100%;background:#165DFF;color:white;border:none;padding:12px;border-radius:8px;margin-top:10px}
+.qa{margin:10px 0;padding:10px;background:#f0f7ff;border-radius:8px}
+.back{text-align:center;margin-top:20px}
+.back a{color:#165DFF;text-decoration:none}
+</style>
+</head>
+<body>
+<div class="header"><h1>AI模拟面试</h1></div>
+<div class="content">
+<div class="box">
+<h2>开口就慌？先练熟再上场</h2>
+<p>不用尴尬、不用看人脸色，随时练习。</p>
+<div class="qa">
+<p><strong>Q：请做一下自我介绍</strong></p>
+<p>A：我有X年相关经验，主要负责XX，能独立完成XX。</p>
+</div>
+<div class="qa">
+<p><strong>Q：你的优点是什么</strong></p>
+<p>A：执行力强、责任心重、学习速度快。</p>
+</div>
+<button>下一题</button>
+</div>
+<div class="back"><a href="index.html">← 返回首页</a></div>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>求职搭子 - 打工仔求职上岸站</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:微软雅黑,sans-serif}
+body{background:#F5F7FA}
+.header{background:#165DFF;color:white;padding:20px;text-align:center}
+.content{padding:20px}
+.box{background:white;border-radius:12px;padding:20px;margin-bottom:15px;box-shadow:0 2px 8px rgba(0,0,0,.07)}
+h2{font-size:18px;color:#165DFF;margin-bottom:10px}
+p{font-size:14px;line-height:1.6;color:#666}
+.item{padding:10px;border-bottom:1px solid #eee}
+.back{text-align:center;margin-top:20px}
+.back a{color:#165DFF;text-decoration:none}
+</style>
+</head>
+<body>
+<div class="header"><h1>求职搭子</h1></div>
+<div class="content">
+<div class="box">
+<h2>一个人太难，我们一起找</h2>
+<p>同城、同行、互相打气、共享信息。</p>
+<div class="item">
+<p>📍 北京 · 找客服工作</p>
+<p>求一起投简历、互相监督</p>
+</div>
+<div class="item">
+<p>📍 上海 · 找文员工作</p>
+<p>有内推渠道，可分享</p>
+</div>
+<div class="item">
+<p>📍 广州 · 找普工/包装</p>
+<p>想找日结或长期稳定</p>
+</div>
+</div>
+<div class="back"><a href="index.html">← 返回首页</a></div>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>黑公司避雷墙 - 打工仔求职上岸站</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:微软雅黑,sans-serif}
+body{background:#F5F7FA}
+.header{background:#165DFF;color:white;padding:20px;text-align:center}
+.content{padding:20px}
+.box{background:white;border-radius:12px;padding:20px;margin-bottom:15px;box-shadow:0 2px 8px rgba(0,0,0,.07)}
+h2{font-size:18px;color:#165DFF;margin-bottom:10px}
+p{font-size:14px;line-height:1.6;color:#666}
+.warn{background:#fff2f2;padding:10px;border-radius:8px;margin-bottom:8px}
+.back{text-align:center;margin-top:20px}
+.back a{color:#165DFF;text-decoration:none}
+</style>
+</head>
+<body>
+<div class="header"><h1>黑公司避雷墙</h1></div>
+<div class="content">
+<div class="box">
+<h2>找工作，先避坑</h2>
+<p>真实匿名爆料，不交社保、拖欠工资、PUA、黑中介全曝光。</p>
+<div class="warn">⚠️ XX公司：不签合同、拖欠工资</div>
+<div class="warn">⚠️ XX中介：收费后不安排工作</div>
+<div class="warn">⚠️ XX工厂：强制加班、无补贴</div>
+</div>
+<div class="back"><a href="index.html">← 返回首页</a></div>
+</div>
+</body>
+</html>
+5. subsidy.html 失业补助金
+html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>失业补助金 - 打工仔求职上岸站</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:微软雅黑,sans-serif}
+body{background:#F5F7FA}
+.header{background:#165DFF;color:white;padding:20px;text-align:center}
+.content{padding:20px}
+.box{background:white;border-radius:12px;padding:20px;margin-bottom:15px;box-shadow:0 2px 8px rgba(0,0,0,.07)}
+h2{font-size:18px;color:#165DFF;margin-bottom:10px}
+p{font-size:14px;line-height:1.6;color:#666}
+li{font-size:14px;line-height:1.8;margin-left:20px}
+.back{text-align:center;margin-top:20px}
+.back a{color:#165DFF;text-decoration:none}
+</style>
+</head>
+<body>
+<div class="header"><h1>失业补助金</h1></div>
+<div class="content">
+<div class="box">
+<h2>没钱先撑住：这笔钱你可以领</h2>
+<p><strong>申领条件：</strong></p>
+<ul>
+<li>缴纳过失业保险</li>
+<li>非本人意愿离职</li>
+<li>已做失业登记</li>
+</ul>
+<p><strong>材料：</strong>身份证、社保卡、离职证明</p>
+<p><strong>渠道：</strong>当地人社局APP / 政务服务网</p>
+</div>
+<div class="back"><a href="index.html">← 返回首页</a></div>
+</div>
+</body>
+</html>
+6. test.html 职业方向测试
+html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>职业测试 - 打工仔求职上岸站</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:微软雅黑,sans-serif}
+body{background:#F5F7FA}
+.header{background:#165DFF;color:white;padding:20px;text-align:center}
+.content{padding:20px}
+.box{background:white;border-radius:12px;padding:20px;margin-bottom:15px;box-shadow:0 2px 8px rgba(0,0,0,.07)}
+h2{font-size:18px;color:#165DFF;margin-bottom:10px}
+p{font-size:14px;line-height:1.6;color:#666}
+button{width:100%;background:#165DFF;color:white;border:none;padding:12px;border-radius:8px;margin-top:10px}
+.back{text-align:center;margin-top:20px}
+.back a{color:#165DFF;text-decoration:none}
+</style>
+</head>
+<body>
+<div class="header"><h1>职业方向测试</h1></div>
+<div class="content">
+<div class="box">
+<h2>不知道做什么？测完就清晰</h2>
+<p>10题快速测出你适合的工作，不玄学、很实用。</p>
+<p>1. 你能接受体力劳动吗？</p>
+<p>2. 你能接受夜班/加班吗？</p>
+<p>3. 你更喜欢跟人打交道还是跟机器？</p>
+<p>4. 你更想稳定还是自由？</p>
+<button>查看我的结果</button>
+</div>
+<div class="back"><a href="index.html">← 返回首页</a></div>
+</div>
+</body>
+</html>
+7. parttime.html 日结兼职库
+html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日结兼职库 - 打工仔求职上岸站</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:微软雅黑,sans-serif}
+body{background:#F5F7FA}
+.header{background:#165DFF;color:white;padding:20px;text-align:center}
+.content{padding:20px}
+.box{background:white;border-radius:12px;padding:20px;margin-bottom:15px;box-shadow:0 2px 8px rgba(0,0,0,.07)}
+h2{font-size:18px;color:#165DFF;margin-bottom:10px}
+p{font-size:14px;line-height:1.6;color:#666}
+.job{padding:10px;border-bottom:1px solid #eee}
+.back{text-align:center;margin-top:20px}
+.back a{color:#165DFF;text-decoration:none}
+</style>
+</head>
+<body>
+<div class="header"><h1>日结兼职库</h1></div>
+<div class="content">
+<div class="box">
+<h2>急用钱？今天干活，今天拿钱</h2>
+<p>零门槛、不压工资、真实靠谱。</p>
+<div class="job">
+<p>📦 物流分拣 · 日结200</p>
+<p>📍 本地仓库 | 8小时</p>
+</div>
+<div class="job">
+<p>🛵 配送跑腿 · 多劳多得</p>
+<p>📍 全城可做 | 时间自由</p>
+</div>
+<div class="job">
+<p>🧹 保洁临勤 · 日结180</p>
+<p>📍 商场/公司 | 白班</p>
+</div>
+</div>
+<div class="back"><a href="index.html">← 返回首页</a></div>
+</div>
+</body>
+</html>
+8. wish.html 上岸许愿墙
+html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>上岸许愿墙 - 打工仔求职上岸站</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:微软雅黑,sans-serif}
+body{background:#F5F7FA}
+.header{background:#165DFF;color:white;padding:20px;text-align:center}
+.content{padding:20px}
+.box{background:white;border-radius:12px;padding:20px;margin-bottom:15px;box-shadow:0 2px 8px rgba(0,0,0,.07)}
+h2{font-size:18px;color:#165DFF;margin-bottom:10px}
+p{font-size:14px;line-height:1.6;color:#666}
+.wish{background:#fff9e6;padding:10px;border-radius:8px;margin-bottom:8px}
+.back{text-align:center;margin-top:20px}
+.back a{color:#165DFF;text-decoration:none}
+</style>
+</head>
+<body>
+<div class="header"><h1>上岸许愿墙</h1></div>
+<div class="content">
+<div class="box">
+<h2>许个愿，等你上岸来还愿</h2>
+<p>全是和你一样在努力的人。</p>
+<div class="wish">🙏 希望下周找到稳定工作</div>
+<div class="wish">🙏 愿不再迷茫，早日上岸</div>
+<div class="wish">🙏 求一份包吃住的工作</div>
+<div class="wish">✅ 已上岸！感谢大家，还愿！</div>
+</div>
+<div class="back"><a href="index.html">← 返回首页</a></div>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>薪资谈判 - 打工仔求职上岸站</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:微软雅黑,sans-serif}
+body{background:#F5F7FA}
+.header{background:#165DFF;color:white;padding:20px;text-align:center}
+.content{padding:20px}
+.box{background:white;border-radius:12px;padding:20px;margin-bottom:15px;box-shadow:0 2px 8px rgba(0,0,0,.07)}
+h2{font-size:18px;color:#165DFF;margin-bottom:10px}
+p{font-size:14px;line-height:1.6;color:#666}
+.talk{background:#f0f7ff;padding:10px;border-radius:8px;margin:10px 0}
+.back{text-align:center;margin-top:20px}
+.back a{color:#165DFF;text-decoration:none}
+</style>
+</head>
+<body>
+<div class="header"><h1>薪资谈判话术</h1></div>
+<div class="content">
+<div class="box">
+<h2>敢开口，才能多拿钱</h2>
+<p>不用尬聊，照着说就行。</p>
+<div class="talk">
+<p><strong>期望薪资：</strong></p>
+<p>根据行业水平和我的能力，期望薪资XX。</p>
+</div>
+<div class="talk">
+<p><strong>被压薪时：</strong></p>
+<p>我理解公司预算，我也能创造对应价值，希望能给到XX。</p>
+</div>
+</div>
+<div class="back"><a href="index.html">← 返回首页</a></div>
+</div>
+</body>
+</html>l
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>30天求职计划 - 打工仔求职上岸站</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:微软雅黑,sans-serif}
+body{background:#F5F7FA}
+.header{background:#165DFF;color:white;padding:20px;text-align:center}
+.content{padding:20px}
+.box{background:white;border-radius:12px;padding:20px;margin-bottom:15px;box-shadow:0 2px 8px rgba(0,0,0,.07)}
+h2{font-size:18px;color:#165DFF;margin-bottom:10px}
+p{font-size:14px;line-height:1.6;color:#666}
+.day{padding:8px;border-bottom:1px solid #eee}
+.back{text-align:center;margin-top:20px}
+.back a{color:#165DFF;text-decoration:none}
+</style>
+</head>
+<body>
+<div class="header"><h1>30天求职逆袭计划</h1></div>
+<div class="content">
+<div class="box">
+<h2>从今天起，每天进步一点点</h2>
+<div class="day">✅ 第1-3天：优化简历、确定方向</div>
+<div class="day">✅ 第4-10天：大量投递、练习面试</div>
+<div class="day">✅ 第11-20天：参加面试、总结经验</div>
+<div class="day">✅ 第21-30天：选择offer、准备入职</div>
+<p style="margin-top:10px">坚持30天，绝大多数人都能上岸。</p>
+</div>
+<div class="back"><a href="index.html">← 返回首页</a></div>
+</div>
+</body>
+</html>
